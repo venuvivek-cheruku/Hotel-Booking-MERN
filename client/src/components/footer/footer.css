@@ -1,0 +1,35 @@
+.footerContainer {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  color: #0071c2;
+  justify-content: space-between;
+}
+
+.footerListContainer ul {
+  list-style: none;
+}
+.footerListContainer ul li {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.footerListContainer ul li:hover {
+  color: #003580;
+  text-decoration: underline;
+}
+
+.copyrightContainer {
+  padding: 5rem 0rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.copyrightContainer p {
+  font-size: 0.8rem;
+}

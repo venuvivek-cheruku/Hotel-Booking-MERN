@@ -1,0 +1,112 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.listSearch {
+  flex: 1;
+  padding: 1.5rem 1rem;
+  background-color: #febb02;
+  border-radius: 0.5rem;
+  position: sticky;
+  top: 0;
+  width: 6rem;
+  overflow: hidden;
+  height: max-content;
+}
+
+.rdrMonth {
+  width: 100%;
+}
+
+.listSearchTitle {
+  font-size: 1.25rem;
+}
+
+.searchInputContainer {
+  margin: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchInputContainer h2 {
+  font-size: 1rem;
+}
+
+.searchInputContainer input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.searchInputContainer .searchDateInput {
+  background-color: #fff;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  cursor: pointer;
+}
+
+.searchInputContainer.search {
+  position: relative;
+  width: 100%;
+}
+
+.searchDateInput .searchInputArrow {
+  font-weight: 900;
+  font-family: var(--fontNoto);
+  font-size: 1rem;
+}
+
+.searchInputDateRange {
+  position: absolute;
+  top: 105%;
+  width: 100%;
+  left: 0;
+}
+
+.searchInputOptions {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.searchInputOptions p {
+  flex: 4;
+}
+.searchInputOptions span {
+  flex: 2;
+  height: 80%;
+}
+
+.searchInputOptions span input {
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+}
+
+.listResult {
+  flex: 3;
+}
+
+.searchBtn button {
+  width: 100%;
+  padding: 1rem;
+  color: #fff;
+  background-color: #0071c2;
+  font-size: 1rem;
+  font-family: var(--fontNoto);
+  border: none;
+  outline: none;
+}

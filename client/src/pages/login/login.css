@@ -1,0 +1,82 @@
+.login {
+  width: 100%;
+  height: calc(100vh - 4rem);
+}
+
+.lNavBarContainer {
+  background-color: #003580;
+}
+
+.lNavBar {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.lNavBar h2 {
+  color: #fff;
+}
+
+.lcontainer {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  width: 25%;
+  margin-top: 5rem;
+  flex-direction: column;
+  text-align: start;
+}
+
+.lcontainer h1 {
+  font-size: 1.5rem;
+  font-family: var(--fontNoto);
+  margin-bottom: 3rem;
+}
+
+.lInput {
+  width: 95%;
+  height: 3rem;
+  padding: 0rem 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.lLabel {
+  text-align: start;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.lButton {
+  width: 95%;
+  background-color: #0071c2;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: var(--fontNoto);
+  font-weight: 600;
+}
+.lButton:hover {
+  background-color: #00487a;
+  cursor: pointer;
+}
+
+.lRegisterBtn {
+  color: #0071c2;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.lErrorMsg {
+  text-align: center;
+  padding: 1rem 0rem;
+  color: red;
+}

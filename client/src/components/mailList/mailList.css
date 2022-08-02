@@ -1,0 +1,69 @@
+.mailListContainer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  background-color: #00224f;
+  color: #fff;
+}
+
+.innerMailListContainer {
+  padding: 4rem 0rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.innerMailListContainer h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.innerMailListContainer p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #bdbdbd;
+}
+
+.innerMailListContainer p:nth-child(4) {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 10px;
+  text-align: start;
+}
+
+.inputMailList {
+  max-width: 50%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+.inputMailList input {
+  font-size: 1.25rem;
+  width: 100%;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  font-weight: 300;
+  padding-left: 0.3rem;
+}
+
+.inputMailList button {
+  font-size: 1.25rem;
+  width: 40%;
+  padding: 0.6rem 0rem;
+  height: 100%;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 0.3rem;
+  border-radius: 3px;
+  background-color: #0071c2;
+}

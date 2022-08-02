@@ -1,0 +1,56 @@
+.featuredDestinationListContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+}
+
+.featuredDestinationListImgContainer {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.featuredDestinationListImg {
+  width: 100%;
+  height: 15rem;
+}
+
+.featuredDestinationListImgContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.7rem;
+  object-fit: cover;
+  height: 15rem;
+}
+
+.featuredDestinationListImgContent h2 {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  margin-top: 0.6rem;
+}
+.featuredDestinationListImgContent p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #6b6b6b;
+}
+.featuredDestinationListImgContent span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.fpRating {
+  margin-top: 0.5rem;
+}
+
+.fpRating button {
+  background-color: #003580;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  border: none;
+}

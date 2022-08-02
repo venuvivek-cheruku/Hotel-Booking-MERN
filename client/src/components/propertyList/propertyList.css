@@ -1,0 +1,35 @@
+.PropertyListContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+}
+
+.propertyListImgContainer {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.propertyListImgContainer img {
+  width: 100%;
+  border-radius: 0.7rem;
+  object-fit: cover;
+  height: 15rem;
+}
+
+.propertyListImgContent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.propertyListImgContent h2 {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.propertyListImgContent p {
+  font-size: 1rem;
+}

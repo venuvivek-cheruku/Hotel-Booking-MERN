@@ -1,0 +1,126 @@
+.searchItemContainer {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+  font-family: var(--fontNoto);
+}
+
+.siImg {
+  width: 100%;
+  flex: 3;
+  height: 100%;
+}
+
+.siImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.siContent {
+  flex: 4;
+  padding: 0rem 1rem;
+}
+
+.siContent h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #0071c2;
+}
+
+.siContent p {
+  font-size: 1rem;
+  line-height: 1.8em;
+}
+
+.siContent .airportText {
+  background-color: #008009;
+  width: fit-content;
+  margin: 0.2rem 0rem;
+  padding: 0rem 0.3rem;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+
+.siContent .cancellationText {
+  color: #008009;
+  font-weight: 700;
+}
+
+.siContent .cancelText {
+  color: #008009;
+  font-size: 0.875rem;
+}
+
+.siPriceContent {
+  flex: 2;
+}
+
+.siPriceContent .ratingContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.siPriceContent .ratingContainer p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.siPriceContent .ratingContainer button {
+  background-color: #003580;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  border: none;
+}
+
+.siPriceContent .siPrice {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+  margin-right: 0.5rem;
+  flex-direction: column;
+}
+
+.siPriceContent .siPrice .siPriceNumber {
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.siPriceContent .siPrice p:nth-child(2) {
+  font-size: 0.8rem;
+  color: gray;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.siPriceContent .siAvailabilityBtn {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+.siPriceContent .siAvailabilityBtn button {
+  color: #fff;
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: #0071c2;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.siPriceContent .siAvailabilityBtn button:hover {
+  background-color: #003580;
+}

@@ -1,0 +1,11 @@
+.homeContainer {
+  padding-top: 5rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.homeSubTitle {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
